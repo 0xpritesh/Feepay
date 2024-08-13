@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.SettingFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:layout_marginStart="30dp"
+        android:layout_marginVertical="30dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#00668B"/>
+
+    <TextView
+        android:id="@+id/UpdateProfileTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:text="Update Profile"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_marginStart="30dp"
+        android:layout_marginVertical="30dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#00668B"/>
+
+    <TextView
+        android:id="@+id/Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_outline_feedback_24"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:text="Feedback"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="10dp"
+        android:drawableStart="@drawable/ic_baseline_help_24"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:text="Help"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="10dp"
+            android:text="Version"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:drawablePadding="10dp"
+            android:text="1.0.0"
+            android:textColor="#FD282829"
+            android:textSize="18dp"
+            android:letterSpacing=".2"
+            android:layout_weight="3"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/SignOutTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="28dp"
+        android:drawablePadding="10dp"
+        android:text="Sign Out"
+        android:textColor="#E11907"
+        android:textSize="20dp" />
+
+
+
+
+
+
+</LinearLayout>

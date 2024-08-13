@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General">
+
+        <Preference
+            android:key="UpdateProfile"
+            android:title="Update Profile"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="About">
+
+        <Preference
+            android:key="Feedback"
+            android:title="Feedback"/>
+        <Preference
+            android:key="Help"
+            android:title="Help"/>
+        <Preference
+            android:key="PrivacyPolicy"
+            android:title="Privacy Policy"/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="SignOut"
+        android:title="Sign Out"/>
+
+
+
+
+</androidx.preference.PreferenceScreen>

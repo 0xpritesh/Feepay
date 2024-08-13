@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.PaymentFragment">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="314dp"
+        android:src="@drawable/feepay_payment_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="80dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMakePayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/payment_btn"
+            android:letterSpacing=".1"
+            android:text="Make  Payment"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/PaymentProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="15dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPaymentHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment History"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:letterSpacing=".1"
+            android:background="@drawable/history_btn"/>
+
+        <ProgressBar
+            android:id="@+id/PaymentHistoryProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

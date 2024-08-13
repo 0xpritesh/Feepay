@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FeePay</string>
+
+    // Profile Fragment String Values
+    <string name="UserName">UserName</string>
+    <string name="UserSchool">Userschool</string>
+    <string name="UserClass">UserClass</string>
+    <integer name="UserFee">600</integer>
+
+
+</resources>

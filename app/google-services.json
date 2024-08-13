@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275825903555",
+    "project_id": "feepay-cf15d",
+    "storage_bucket": "feepay-cf15d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275825903555:android:c7907e08cd4b1b4faa1f76",
+        "android_client_info": {
+          "package_name": "com.app.feepay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275825903555-aae6h4ng4ff42n2r77f9hiug90nlobih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyiyaTiCr4aXwf6BLvinK93KYGf1t51ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275825903555-aae6h4ng4ff42n2r77f9hiug90nlobih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

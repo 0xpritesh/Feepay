@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.feepay">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaymentHistory"
+            android:exported="false"
+            android:theme="@style/Theme.FeePay.NoActionBar"/>
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false"
+            android:theme="@style/SplashScreen">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- Login Activities -->
+        <activity
+            android:name=".LoginClasses.RegisterPhone"
+            android:exported="false"
+            android:theme="@style/Login.CustomStyle" />
+        <activity
+            android:name=".LoginClasses.VerifyOTP"
+            android:exported="false"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".LoginClasses.RegisterUserData"
+            android:exported="false"
+            android:theme="@style/Login.CustomStyle" />
+        <activity
+            android:name=".LoginClasses.Login"
+            android:exported="false"
+            android:theme="@style/Login.CustomStyle" /> <!-- Main Activities -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FeePay.NoActionBar" /> <!-- Splash Screen -->
+        <activity
+            android:name=".Splash"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
